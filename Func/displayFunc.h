@@ -21,7 +21,7 @@ void disChar() {
 	printf("金钱：%d\n", me.money);
 	printf("\n 按回车返回");
 	scanf("%*c%*c"); //回车返回 
-	menu();
+	return;
 }
 
 //显示所有武器
@@ -31,6 +31,7 @@ void disWeapons() {
 		printf("%d %d星级武器\t%s\t\t%d元\n", i, weapons[i].level, weapons[i].name,
 										 	  weapons[i].money);
 	}
+	return;
 }
 
 //显示所有药
@@ -40,6 +41,7 @@ void disDrugs() {
 		printf("%d %d星级\t%s\t\t%d元\n", i, drugs[i].level, drugs[i].name,
 										 	  drugs[i].money);
 	}
+	return;
 }
 
 #endif  

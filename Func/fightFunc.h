@@ -51,7 +51,7 @@ void wildMonster() {
 			}
 		}
 	}
-	menu();
+	return;
 }
 
 #endif

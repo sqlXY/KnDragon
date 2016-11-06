@@ -44,7 +44,7 @@ void fuckDragon() {
 			}
 		}
 	}
-	menu(); 
+	return; 
 }
 
 #endif

@@ -23,11 +23,11 @@ void buyWeapon() {
 			break;
 	}
 	if(select == -1)
-		menu();
+		return;
 	else {
 		me.money -= weapons[select].money;
 		me.weapon = weapons[select];
-		menu(); 
+		return; 
 	}
 }
 
@@ -48,11 +48,11 @@ void buyDrug() {
 			break;
 	}
 	if(select == -1)
-		menu();
+		return;
 	else {
 		me.money -= drugs[select].money;
 		me.drug = drugs[select];
-		menu(); 
+		return; 
 	}
 }
 
