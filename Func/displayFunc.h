@@ -14,7 +14,7 @@ void disChar() {
 	system("cls");
 	printf("姓名：%s\n", me.name);
 	printf("等级：%d\n", me.level);
-	printf("经验：%ld\n", me.exp);
+	printf("经验：%d\n", me.exp);
 	printf("血量：%d\n", me.HP);
 	printf("武器：%s\n", me.weapon.name);
 	printf("药品：%s\n", me.drug.name);

@@ -15,7 +15,9 @@
 #include "./Func/dragonFunc.h"	   //有关龙的函数
 
 
-int main() { 
+int main() {
+	int i = 100;
+	int level;
 	initChar();
 	menu();
 	scanf("%*c%*c");
